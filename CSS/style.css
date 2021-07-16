@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #343a40; }
+  .navbar .navbar-brand {
+    color: #ffffff;
+    cursor: pointer; }
+  .navbar input {
+    width: 15em; }
+
+ul {
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  width: 15em;
+  padding-left: 14px;
+  padding-right: 14px; }
+  ul li {
+    border-bottom: 1px solid black; }
+
+h1 {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 2.5em; }
+
+img {
+  width: 100%; }
+
+p {
+  text-align: left;
+  padding: 1em;
+  border: 1px solid black;
+  width: 100%;
+  margin: 0 auto 2.5em; }
+
+.img-info {
+  width: 80%; }
+
+.season-list {
+  cursor: pointer;
+  position: static;
+  list-style: square;
+  z-index: -22; }
+  .season-list li {
+    border: none; }
+
+.cast-list, .ep-list, .crew-list {
+  list-style: square;
+  position: static; }
+  .cast-list li, .ep-list li, .crew-list li {
+    border: none; }
+
+.ep-list {
+  cursor: pointer; }
+
+.crew-list {
+  width: auto; }
+
+.summary p {
+  border: none;
+  padding: 0;
+  text-align: justify; }
+
+.footer {
+  padding: 0;
+  text-align: center; }
+  .footer div {
+    padding: 1em;
+    color: #ffffff;
+    background-color: #343a40; }
+
+/*# sourceMappingURL=style.css.map */
