@@ -1,3 +1,7 @@
+
+import {searchShows} from './search.js';
+searchShows()
+
 let section=document.querySelector('section');
 let showNameH1=document.querySelector('.show-name');
 let poster=document.querySelector('.img-info');
@@ -110,7 +114,7 @@ function getInfo(){
                  ul.classList='ep-list'; 
          
                 let response4=JSON.parse(xmlhttp4.response);  
-                for(i=0; i<response4.length; i++){
+                for(let i=0; i<response4.length; i++){
                   let epName=response4[i].name;
                   let li=document.createElement('li');
                    li.textContent=epName;

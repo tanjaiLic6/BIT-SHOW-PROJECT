@@ -1,7 +1,13 @@
+import Shows from './model.js';
+import {searchShows} from './search.js';
+
+searchShows();
 
 let TvShows= new Shows();
 var allShows= new Shows();
 let container=document.querySelector('.container');
+
+
 
 function getShows(){ 
 
@@ -85,7 +91,7 @@ document.querySelector('.container').addEventListener('click',function(e){
 
 })
 
-
+searchShows();
 
 
 

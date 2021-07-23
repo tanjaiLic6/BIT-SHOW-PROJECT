@@ -1,3 +1,6 @@
+import Shows from './model.js';
+ 
+
 var allShows= new Shows();
 let form=document.querySelector('form');
 
@@ -7,7 +10,7 @@ let ul=document.createElement('ul');
 
 
 
-function searchShows(){
+ export function searchShows(){
     ul.innerHTML='';
 
     let xmlhttp = new XMLHttpRequest(); 
